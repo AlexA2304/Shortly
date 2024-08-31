@@ -17,5 +17,5 @@ EXPOSE 5001
 CMD ["python", "app.py"]
 
 # build: docker build -t shortly .
-# run: docker run -p 5000:5000 shortly
+# run: docker run -p 5001:5000 shortly
 # access @: http://localhost:5001
